@@ -1,0 +1,54 @@
+.card{
+    background-color: rgb(168, 9, 9);
+    color: white;
+    margin-top: 60px;
+    justify-content: center;
+    
+    text-align: center;
+    background: linear-gradient(to right, rgb(179, 4, 4) , rgb(219, 76, 19));
+    
+    
+    /* background: linear-gradient(to right, rgb(177, 23, 23) , rgb(204, 138, 138)); */
+}
+.card img{
+    max-width: 128px;max-height: 128px;
+    padding:1rem;
+}
+#card-container{
+    
+    padding: 2px;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    
+}
+#caardheading{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+#caardheading h1{
+    font-family: 'Raleway', sans-serif;font-weight: 600; font-size: 3rem;
+}
+#small-cards{
+    /* box-shadow: 0px 0px 3px 2px rgb(0, 0, 0); */
+    transition: 0.5s;
+}
+#small-cards:hover{
+    transform: translateY(-10px);
+}
+html,body{
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 570px){
+    #caardheading h1{
+        font-family: 'Raleway', sans-serif;font-weight: 550; font-size: 2.2rem;
+    }
+}
+@media only screen and (max-width: 416px){
+    #caardheading h1{
+        font-family: 'Raleway', sans-serif;font-weight: 520; font-size: 1.9rem;
+    }
+}

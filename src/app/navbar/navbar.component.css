@@ -1,0 +1,22 @@
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -3px;
+    margin-left: 25px;
+}
+.navbar{
+    justify-content: space-between;
+    background: linear-gradient(to right, rgb(197, 9, 81) , rgba(196, 55, 0, 0.925));
+    /* background: rgb(179, 4, 4); */
+    color: rgb(255, 255, 255);
+
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+
+}

@@ -1,0 +1,57 @@
+.carousel {
+    height: -25vh;
+    width: 100%;
+    position: relative;
+    align-content: center;
+    margin-top: 10px;
+    padding: 1.5rem;
+} 
+
+/* top-container */
+#top-container{
+    width: 95%;
+    background: linear-gradient(#fff,rgba(177, 173, 173, 0.76));
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 60px;
+
+
+}
+
+#top-container img{
+    width: 96%;
+    
+}
+.car-text{
+    float: left;
+    margin: auto;
+}
+.carousel{
+    float: right;
+}
+.car-text h1 q{
+    font-family: 'Raleway', sans-serif;font-weight: 550; font-size: 2.7rem;
+}
+@media only screen and (max-width: 989px){
+    .car-text h1 q{
+        font-family: 'Raleway', sans-serif;font-weight: 500; font-size: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .car-text h1 q{
+        font-family: 'Raleway', sans-serif;font-weight: 450; font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width: 480px){
+
+    .carousel {
+        height: -25vh;
+        width: 100%;
+        position: relative;
+        align-content: center;
+        margin-top: 10px;
+        padding: 0.7rem;
+    } 
+}

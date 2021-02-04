@@ -1,0 +1,26 @@
+#contact{
+    width: 95%;
+    background: linear-gradient( rgb(248, 55, 55) , rgb(255, 4, 4));
+    justify-content: center;
+    margin: 2rem auto 0 auto ;
+}
+agm-map {
+    height: 300px;
+    width: 85%;
+    margin: 30px auto;
+    justify-content: center;
+    padding: 3rem;
+    
+  }
+
+  .Headding-text{
+    font-family: 'Raleway', sans-serif;font-weight: 450; font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    
+  }
+  #contact-box{
+      justify-content: center;
+      margin: auto;
+      padding-top: 20px;
+      color: rgb(255, 255, 255);
+  }
