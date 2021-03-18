@@ -3,34 +3,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
   </head>
 <div class="row" id="contact">
+   
     <div class="col-sm-6">
         <div class="row" id="contact-box">
+            <div class="col-sm-12">
+                <div class="content" id="con">
+                    <h2 class="Headding-text">Contact Us :</h2>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="sub-content" id="scon">
+                    <h3>
+                        <h2 class="address">Address : </h2>
+                        <ul>G4,1st cross street, Navalur Road, SIPCOT IT Park, <br>
+                            Rajiv Gandhi Salai, Siruseri, Chennai, Tamil Nadu 603103</ul>
+                    </h3>
+                </div>
+            </div>
 
-            <div class="content">
-                <h2 class="Headding-text">Contact Us :</h2>
-            </div>
-            <div class="sub-content">
-                <h3>
-                    <h2 class="Headding-text">Address : </h2>
-                    <ul>G4,1st cross street, Navalur Road, SIPCOT IT Park, <br>
-                        Rajiv Gandhi Salai, Siruseri, Chennai, Tamil Nadu 603103</ul>
-                </h3>
-            </div>
         </div>
 
 
     </div>
     <div class="col-sm-6">
-        <!-- <google-map height="50px"
-        width="10%"> -->
-<!--             
-        </google-map> -->
-            <h1 class="Headding-text" id="contact-box">Map :</h1>
-            <!-- <div #map style="width:50%;height:40px"></div> -->
-            
-
-        <!-- this creates a google map on the page with the given lat/lng from -->
-        <!-- the component as the initial center of the map: -->
+ 
+            <h2 class="Headding-text" id="contact-box">Map :</h2>
+           
         <agm-map [latitude]="lat" [longitude]="lng" [zoom]="18">
         <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
         </agm-map>
